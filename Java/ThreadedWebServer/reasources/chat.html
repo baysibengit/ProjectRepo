@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1 align= "center">
+        WebChat
+    </h1>
+  
+    <title>WebChat</title>
+    <link rel="stylesheet" type="text/css" href="chat.css">
+</head>
+<body>
+    <script defer type="text/javascript" src="chat.js"> </script>
+    <table> 
+        <tr> 
+            <td><label>User:</label></td>
+            <td><input type="text" id="user" value="">
+            </td>
+
+            <td><label>Room:</label></td>
+            <td><input type="text" id="room" value="">
+                <button id = "join">Join</button>
+            </td>
+        </tr>
+    </table>
+    <div style="width: 100%; display: table;">
+        <div style="display: table-row">
+            <div id = "leftSide" style="width: 300px; height: 600px; display: table-cell;"> 
+                <h1 align = "left">
+                    Log
+                </h1>
+            </div>
+            <div id = "rightSide" style="width: 600px; height: 600px;display: table-cell;">
+                <h1 align = "left">
+                    Chat
+                </h1>
+                </div>
+        </div>
+    </div>
+    <table> 
+        <tr> 
+            <td><label>Message:</label></td>
+            <td><input type="text" id="message" value="">
+            <button id = "send">Send</button>
+             </td>
+        </tr>
+    </table>
+    <button id = "leave">Leave</button>
+    
+</body>
+</html>
+

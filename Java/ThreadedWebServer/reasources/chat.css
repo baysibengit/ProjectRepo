@@ -1,0 +1,4 @@
+#rightSide {
+
+    overflow: auto; /* Enable both vertical and horizontal scrolling if content overflows */
+}
