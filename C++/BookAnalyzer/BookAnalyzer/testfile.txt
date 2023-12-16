@@ -1,0 +1,7 @@
+Title: Book of Choice
+Author: Ben Baysinger
+Release Date: August 31, 2023
+This book is used to test my functions. We will check for total number of
+words, shortest word, longest word, and word occurances! Will the functions
+work? Won't we have to check for apostrophes?
+
